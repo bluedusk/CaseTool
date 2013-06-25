@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BEBB4D1177048F5006B68FD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BEBB4D0177048F5006B68FD /* Cocoa.framework */; };
+		1BEBB4DB177048F5006B68FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BEBB4D9177048F5006B68FD /* InfoPlist.strings */; };
+		1BEBB4DD177048F5006B68FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBB4DC177048F5006B68FD /* main.m */; };
+		1BEBB4E1177048F5006B68FD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1BEBB4DF177048F5006B68FD /* Credits.rtf */; };
+		1BEBB4E4177048F5006B68FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBB4E3177048F5006B68FD /* AppDelegate.m */; };
+		1BEBB4E7177048F6006B68FD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BEBB4E5177048F6006B68FD /* MainMenu.xib */; };
+		1BEBB4EF177048F6006B68FD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BEBB4EE177048F6006B68FD /* SenTestingKit.framework */; };
+		1BEBB4F0177048F6006B68FD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BEBB4D0177048F5006B68FD /* Cocoa.framework */; };
+		1BEBB4F8177048F6006B68FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BEBB4F6177048F6006B68FD /* InfoPlist.strings */; };
+		1BEBB4FB177048F6006B68FD /* CaseToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBB4FA177048F6006B68FD /* CaseToolTests.m */; };
+		1BEBB50A1770496E006B68FD /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBB5091770496E006B68FD /* AppController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BEBB4F1177048F6006B68FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BEBB4C3177048F5006B68FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BEBB4CB177048F5006B68FD;
+			remoteInfo = CaseTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BEBB4CC177048F5006B68FD /* CaseTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaseTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BEBB4D0177048F5006B68FD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1BEBB4D3177048F5006B68FD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1BEBB4D4177048F5006B68FD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1BEBB4D5177048F5006B68FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1BEBB4D8177048F5006B68FD /* CaseTool-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CaseTool-Info.plist"; sourceTree = "<group>"; };
+		1BEBB4DA177048F5006B68FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1BEBB4DC177048F5006B68FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BEBB4DE177048F5006B68FD /* CaseTool-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CaseTool-Prefix.pch"; sourceTree = "<group>"; };
+		1BEBB4E0177048F5006B68FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1BEBB4E2177048F5006B68FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1BEBB4E3177048F5006B68FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1BEBB4E6177048F6006B68FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1BEBB4ED177048F6006B68FD /* CaseToolTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaseToolTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BEBB4EE177048F6006B68FD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1BEBB4F5177048F6006B68FD /* CaseToolTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CaseToolTests-Info.plist"; sourceTree = "<group>"; };
+		1BEBB4F7177048F6006B68FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1BEBB4F9177048F6006B68FD /* CaseToolTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaseToolTests.h; sourceTree = "<group>"; };
+		1BEBB4FA177048F6006B68FD /* CaseToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaseToolTests.m; sourceTree = "<group>"; };
+		1BEBB5081770496E006B68FD /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		1BEBB5091770496E006B68FD /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BEBB4C9177048F5006B68FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BEBB4D1177048F5006B68FD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BEBB4E9177048F6006B68FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BEBB4EF177048F6006B68FD /* SenTestingKit.framework in Frameworks */,
+				1BEBB4F0177048F6006B68FD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BEBB4C1177048F5006B68FD = {
+			isa = PBXGroup;
+			children = (
+				1BEBB4D6177048F5006B68FD /* CaseTool */,
+				1BEBB4F3177048F6006B68FD /* CaseToolTests */,
+				1BEBB4CF177048F5006B68FD /* Frameworks */,
+				1BEBB4CD177048F5006B68FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BEBB4CD177048F5006B68FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BEBB4CC177048F5006B68FD /* CaseTool.app */,
+				1BEBB4ED177048F6006B68FD /* CaseToolTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BEBB4CF177048F5006B68FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BEBB4D0177048F5006B68FD /* Cocoa.framework */,
+				1BEBB4EE177048F6006B68FD /* SenTestingKit.framework */,
+				1BEBB4D2177048F5006B68FD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BEBB4D2177048F5006B68FD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BEBB4D3177048F5006B68FD /* AppKit.framework */,
+				1BEBB4D4177048F5006B68FD /* CoreData.framework */,
+				1BEBB4D5177048F5006B68FD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1BEBB4D6177048F5006B68FD /* CaseTool */ = {
+			isa = PBXGroup;
+			children = (
+				1BEBB4E2177048F5006B68FD /* AppDelegate.h */,
+				1BEBB4E3177048F5006B68FD /* AppDelegate.m */,
+				1BEBB4E5177048F6006B68FD /* MainMenu.xib */,
+				1BEBB4D7177048F5006B68FD /* Supporting Files */,
+				1BEBB5081770496E006B68FD /* AppController.h */,
+				1BEBB5091770496E006B68FD /* AppController.m */,
+			);
+			path = CaseTool;
+			sourceTree = "<group>";
+		};
+		1BEBB4D7177048F5006B68FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BEBB4D8177048F5006B68FD /* CaseTool-Info.plist */,
+				1BEBB4D9177048F5006B68FD /* InfoPlist.strings */,
+				1BEBB4DC177048F5006B68FD /* main.m */,
+				1BEBB4DE177048F5006B68FD /* CaseTool-Prefix.pch */,
+				1BEBB4DF177048F5006B68FD /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1BEBB4F3177048F6006B68FD /* CaseToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BEBB4F9177048F6006B68FD /* CaseToolTests.h */,
+				1BEBB4FA177048F6006B68FD /* CaseToolTests.m */,
+				1BEBB4F4177048F6006B68FD /* Supporting Files */,
+			);
+			path = CaseToolTests;
+			sourceTree = "<group>";
+		};
+		1BEBB4F4177048F6006B68FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BEBB4F5177048F6006B68FD /* CaseToolTests-Info.plist */,
+				1BEBB4F6177048F6006B68FD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BEBB4CB177048F5006B68FD /* CaseTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BEBB4FE177048F6006B68FD /* Build configuration list for PBXNativeTarget "CaseTool" */;
+			buildPhases = (
+				1BEBB4C8177048F5006B68FD /* Sources */,
+				1BEBB4C9177048F5006B68FD /* Frameworks */,
+				1BEBB4CA177048F5006B68FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaseTool;
+			productName = CaseTool;
+			productReference = 1BEBB4CC177048F5006B68FD /* CaseTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BEBB4EC177048F6006B68FD /* CaseToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BEBB501177048F6006B68FD /* Build configuration list for PBXNativeTarget "CaseToolTests" */;
+			buildPhases = (
+				1BEBB4E8177048F6006B68FD /* Sources */,
+				1BEBB4E9177048F6006B68FD /* Frameworks */,
+				1BEBB4EA177048F6006B68FD /* Resources */,
+				1BEBB4EB177048F6006B68FD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BEBB4F2177048F6006B68FD /* PBXTargetDependency */,
+			);
+			name = CaseToolTests;
+			productName = CaseToolTests;
+			productReference = 1BEBB4ED177048F6006B68FD /* CaseToolTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BEBB4C3177048F5006B68FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = daniel;
+			};
+			buildConfigurationList = 1BEBB4C6177048F5006B68FD /* Build configuration list for PBXProject "CaseTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1BEBB4C1177048F5006B68FD;
+			productRefGroup = 1BEBB4CD177048F5006B68FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BEBB4CB177048F5006B68FD /* CaseTool */,
+				1BEBB4EC177048F6006B68FD /* CaseToolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BEBB4CA177048F5006B68FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BEBB4DB177048F5006B68FD /* InfoPlist.strings in Resources */,
+				1BEBB4E1177048F5006B68FD /* Credits.rtf in Resources */,
+				1BEBB4E7177048F6006B68FD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BEBB4EA177048F6006B68FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BEBB4F8177048F6006B68FD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BEBB4EB177048F6006B68FD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BEBB4C8177048F5006B68FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BEBB4DD177048F5006B68FD /* main.m in Sources */,
+				1BEBB4E4177048F5006B68FD /* AppDelegate.m in Sources */,
+				1BEBB50A1770496E006B68FD /* AppController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BEBB4E8177048F6006B68FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BEBB4FB177048F6006B68FD /* CaseToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BEBB4F2177048F6006B68FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BEBB4CB177048F5006B68FD /* CaseTool */;
+			targetProxy = 1BEBB4F1177048F6006B68FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1BEBB4D9177048F5006B68FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BEBB4DA177048F5006B68FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1BEBB4DF177048F5006B68FD /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BEBB4E0177048F5006B68FD /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1BEBB4E5177048F6006B68FD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BEBB4E6177048F6006B68FD /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		1BEBB4F6177048F6006B68FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BEBB4F7177048F6006B68FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BEBB4FC177048F6006B68FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1BEBB4FD177048F6006B68FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1BEBB4FF177048F6006B68FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CaseTool/CaseTool-Prefix.pch";
+				INFOPLIST_FILE = "CaseTool/CaseTool-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1BEBB500177048F6006B68FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CaseTool/CaseTool-Prefix.pch";
+				INFOPLIST_FILE = "CaseTool/CaseTool-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1BEBB502177048F6006B68FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CaseTool.app/Contents/MacOS/CaseTool";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CaseTool/CaseTool-Prefix.pch";
+				INFOPLIST_FILE = "CaseToolTests/CaseToolTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1BEBB503177048F6006B68FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CaseTool.app/Contents/MacOS/CaseTool";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CaseTool/CaseTool-Prefix.pch";
+				INFOPLIST_FILE = "CaseToolTests/CaseToolTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BEBB4C6177048F5006B68FD /* Build configuration list for PBXProject "CaseTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BEBB4FC177048F6006B68FD /* Debug */,
+				1BEBB4FD177048F6006B68FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BEBB4FE177048F6006B68FD /* Build configuration list for PBXNativeTarget "CaseTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BEBB4FF177048F6006B68FD /* Debug */,
+				1BEBB500177048F6006B68FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BEBB501177048F6006B68FD /* Build configuration list for PBXNativeTarget "CaseToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BEBB502177048F6006B68FD /* Debug */,
+				1BEBB503177048F6006B68FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BEBB4C3177048F5006B68FD /* Project object */;
+}
